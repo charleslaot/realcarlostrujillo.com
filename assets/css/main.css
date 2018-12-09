@@ -3,7 +3,11 @@
 
 .banner-icons li {
 	padding-right: 20px !important;
-	font-size: 2em;
+	font-size: 2.4em;
+}
+
+.banner-icons li:hover {
+	color: rgb(43, 216, 201);	
 }
 
 
