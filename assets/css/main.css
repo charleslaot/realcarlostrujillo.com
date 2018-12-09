@@ -3970,3 +3970,13 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	.fab {
+		font-size: 400%;
+		color: rgb(46, 58, 70);
+		margin: 20px 0; 		
+	}
+
+	.icon-javascript-alt {
+		font-size: 450%;
+	}
