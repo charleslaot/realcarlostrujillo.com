@@ -1,6 +1,57 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
+.banner-icons li {
+	padding-right: 20px !important;
+	font-size: 2em;
+}
+
+
+.project-btn {
+	display: inline-block;	
+	background: #ED4933;
+	border-radius: 5px;	
+	width: 55px;	
+	text-align: center;
+}
+
+.project-btn:hover {
+	transition: 500ms;	
+	background: #EF5E4A;
+}
+
+.project-btn a{
+	padding-left: 5px;
+}
+.inner {
+	transform: scale(0.90);
+}
+
+#inner1 {
+	transform: scale(0.75);
+	text-align: right;
+}
+
+#inner2 {
+	display: block;
+	transform: scale(0.75);	
+	margin: 0 0 0 auto;
+}
+
+#email-btn {
+	position: relative;
+	top:50px;
+}
+
+#actions-special1 {
+	display: inline-block;
+}
+
+#actions-special1 li {
+	display: inherit;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3937,10 +3988,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/myPic1.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/myPic1.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/myPic1.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/myPic1.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3958,10 +4009,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/myPic1.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/myPic1.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/myPic1.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/myPic1.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;

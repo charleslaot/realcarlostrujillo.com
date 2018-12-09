@@ -4,6 +4,7 @@
 		<title>Carlos Trujillo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="images/icon.png"/>
 		<link rel="stylesheet" href="assets/css/main.css" />		
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css" />
@@ -17,16 +18,21 @@
 								
 				<!-- Banner -->
 					<section id="banner">
-						<div class="inner">
+						<div class="inner" id='inner1'>
 							<h2>Carlos Trujillo</h2>
 							<p>Earthling from the biggest island of the Carribean.<br />
 								It is a pleasure to meet! Please enjoy your stay here.<br /> 
 								No "human verification" is needed :)</p>
-							<ul class="actions special">
-								<li><a href="#two" class="button primary scrolly">Portfolio</a></li>
-								<li><a href="https://www.minoritycoding.com/" class="button primary" target="_blank">Blog</a></li>
+							<ul class="actions special" id="actions-special1">
+								<li><a href="#two" class="button primary scrolly">Portfolio</a></li>								
 								<li><a href="#three" class="button primary scrolly">About Me</a></li>
 							</ul>
+							<ul class="icons banner-icons">
+									<li><a href="mailto:jose@carlostrujillo.com" class="icon fa-envelope-o" target="_blank"><span class="label">Email</span></a></li>
+									<li><a href="https://www.linkedin.com/in/carlostrujillo90/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/carlostrujillo90" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.minoritycoding.com/" class="icon fa-rss" target="_blank"><span class="label">Blog</span></a></li>		
+								</ul>
 						</div>
 						<a href="#one" class="more scrolly"></a>
 					</section>
@@ -44,31 +50,41 @@
 								<li><span class="fab icon-css3-alt"></span></li>	
 								<li><span class="fab icon-javascript-alt"></span></li>									
 								<li><span class="fab icon-jquery"></span></li>
+								<li><span class="fab icon-sass"></span></li>
 								<li><span class="fab icon-reactjs"></span></li>
-								<li><span class="fab icon-nodejs"></span></li>
-								<li><span class="fab icon-mongodb"></span></li>
+								<!-- <li><span class="fab icon-nodejs"></span></li> -->
+								<!-- <li><span class="fab icon-mongodb"></span></li> -->
 								<li><span class="fab icon-git"></span></li>								
 							</ul>
 						</div>
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
+					<section id="two" class="wrapper alt style2 inner">
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Listio</h2>
+								<h2>Listio 
+									<span class="project-btn"><a href="https://nameless-springs-69015.herokuapp.com/" class="icon fa-play"target="_blank"></a></span>
+									<span class="project-btn"><a href="https://github.com/carlostrujillo90/Listio" class="icon fa-code"target="_blank"></a></span>
+								</h2>								
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Mr Books</h2>
+								<h2>Mr Books
+									<span class="project-btn"><a href="https://carlostrujillo90.github.io/MrBooks/" class="icon fa-play"target="_blank"></a></span>
+									<span class="project-btn"><a href="https://github.com/carlostrujillo90/MrBooks" class="icon fa-code"target="_blank"></a></span>
+								</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Got Fan Quiz</h2>
+								<h2>Got Fan Quiz
+									<span class="project-btn"><a href="https://carlostrujillo90.github.io/Game_of_Thrones_Quiz/" class="icon fa-play"target="_blank"></a></span>
+									<span class="project-btn"><a href="https://github.com/carlostrujillo90/Game_of_Thrones_Quiz" class="icon fa-code"target="_blank"></a></span>										
+								</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
 						</section>
@@ -112,13 +128,13 @@
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
-						<div class="inner">
+						<div class="inner" id="inner2">
 							<header>
 								<h2>Let's work together!</h2>
 								<p>The best way to contact me is via email but you are more than welcome to connect with me in LinkedIn.</p>
 							</header>
 							<ul class="actions stacked">
-								<li><a href="mailto:jose@carlostrujillo.com" class="button fit primary" target="_blank">Email Me</a></li>								
+								<li id="email-btn"><a href="mailto:jose@carlostrujillo.com" class="button fit primary" target="_blank">Email Me</a></li>								
 							</ul>						
 						</div>
 					</section>
@@ -132,7 +148,7 @@
 							<li><a href="https://www.minoritycoding.com/" class="icon fa-rss" target="_blank"><span class="label">Blog</span></a></li>		
 						</ul>
 						<ul class="copyright">
-							<li>&copy; carlostrujillo90.com</li>
+							<li>&copy;2019 carlostrujillo90.com</li>
 						</ul>
 					</footer>
 
