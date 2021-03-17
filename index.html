@@ -151,13 +151,16 @@
 							<li><a href="https://www.minoritycoding.com/" class="icon fa-rss" target="_blank"><span class="label">Blog</span></a></li>		
 						</ul>
 						<ul class="copyright">
-							<li>&copy;2020 carlostrujillo90.com</li>
+							<li>&copy;<span id="year"></span> carlostrujillo90.com</li>
 						</ul>
 					</footer>
 
 			</div>
 
 		<!-- Scripts -->
+			<script>				
+				document.getElementById("year").innerHTML = new Date().getFullYear();
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
