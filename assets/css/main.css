@@ -8,6 +8,14 @@
 }
 
 #quote {
+  margin-bottom: 4px;
+  letter-spacing: 1px !important;
+  text-transform: none !important;
+}
+
+#author {
+  font-style: italic;
+  letter-spacing: 1px !important;
   text-transform: none !important;
 }
 
